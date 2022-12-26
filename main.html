@@ -8,25 +8,33 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-    <form >
-<input type="text" placeholder="Name" id="name" name="name" value="name" required><br>
-<input type="email" placeholder="Email" id="email" name="email" value="email" required><br>
-<input type="radio" name="gender" value="male">
-<label for = "Male">Male</label>
-<input type="radio" name="gender" value="femail">
-<label for = "Male">Femail</label> <br>
-<label for = "laptop brand">Laptop Brand</label> 
-<select name="laptop" id="laptop" required>
-	<option value="apple">Apple</option>
-	<option value="asus">Asus</option>
-	<option value="hp">HP</option>
-</select><br>	
+    <form method="post" >
+		<label for="name">Name</label>
+		<input type="text" placeholder="Name" id="name" name="name" value="Name" required><br><br>
+		<label for="email">Email</label>
+		<input type="email" placeholder="Email" id="email" name="email" value="Email" required><br><br>
 
-<input type="number" placeholder="Age" id="age" name="age" value="age" required><br>
-<input type="date" placeholder="DOB" id="dob" name="dob" required value="dob"><br>
-<input type="password" placeholder="Password" name="Password" required value="password"><br>
-<input type="url" placeholder="Portfolio" name="portfolio" id="portfolio" required value="protfolio"><br> 
-<input type="submit" value="submit">
+		<input type="radio" name="gender" value="male">
+		<label for = "Male" name="gender">Male</label>
+		<input type="radio" name="gender" value="femail">
+		<label for = "FeMale" name="gender">Femail</label> <br><br>
+
+		<label for = "laptop brand">Laptop Brand</label> 
+		<select name="laptop" id="laptop" required>
+		<option value="apple">Apple</option>
+		<option value="asus">Asus</option>
+		<option value="hp">HP</option>
+		</select><br>	<br>
+
+		<label for="age">Age</label>
+		<input type="number" placeholder="Age" id="age" name="age" value="Age" required><br><br>
+		<label for="dob">DOB</label>
+		<input type="date" placeholder="DOB" id="dob" name="dob" required value="DOB"><br><br>
+		<label for="password">Password</label>
+		<input type="password" placeholder="Password" name="Password" required value="Password" id="password"><br><br>
+		<label for="portfolio">Portfolio</label>
+		<input type="url" placeholder="Portfolio" name="portfolio" id="portfolio" required value="Portfolio"><br> <br>
+		<input type="submit" value="submit">
 
 	</form>
 	<script type="text/javascript" src="./script.js">
